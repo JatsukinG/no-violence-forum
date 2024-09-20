@@ -132,7 +132,7 @@ label {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #FF2D55;
+  background: #d17a4b;
   height: 100%;
   z-index: -1;
   transition: 0.5s;
@@ -570,7 +570,7 @@ Main Banner CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #0d1028;
+  background: #fbf5e7;
   opacity: 0.77;
 }
 

@@ -36,12 +36,9 @@ const Navbar: React.FC = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <Image
-                src="/images/logo.png"
-                alt="logo"
-                width={120}
-                height={38}
-              />
+              <h4 className="fw-bold">
+                Foro Noviolencia
+              </h4>
             </Link>
 
             <button

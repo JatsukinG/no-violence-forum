@@ -21,23 +21,23 @@ export default function Home() {
 
       <AboutUsContent />
 
-      <WhyUs />
+      {/*<WhyUs />*/}
 
-      <Speakers />
+      {/*<Speakers />*/}
 
-      <EventSchedules />
+      {/*<EventSchedules />*/}
 
-      <FunFact />
+      {/*<FunFact />*/}
 
-      <Pricing />
+      {/*<Pricing />*/}
 
-      <Partner />
+      {/*<Partner />*/}
 
-      <LatestNews />
+      {/*<LatestNews />*/}
 
-      <BuyTicket />
+      {/*<BuyTicket />*/}
 
-      <Subscribe />
+      {/*<Subscribe />*/}
 
       <Footer />
     </>
