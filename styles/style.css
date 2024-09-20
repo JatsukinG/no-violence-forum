@@ -3712,9 +3712,32 @@ Contact Us CSS
 Footer CSS
 =================================================*/
 .footer-area {
-  background-color: #0d1028;
-  padding-top: 120px;
+  background-color: #a4546c;
+  padding-top: 100px;
 }
+
+.content-tittle-1{
+  background-color: #db7954;
+}
+
+.content-tittle-2{
+  background-color: #83c2d1;
+}
+
+.logo-advertiser{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+
+.single-footer-p{
+
+  padding: 0px 100px;
+  text-align: center;
+}
+
+
 
 .single-footer-widget h3 {
   color: #ffffff;
