@@ -45,14 +45,14 @@ const AboutUsContent: React.FC = () => {
               <div className="col-lg-6">
                 <div className="about-image">
                   <Image
-                      src="/images/about1.jpg"
+                      src="/images/no-violence/what_it_is.webp"
                       className="about-img1"
                       width={750}
                       height={500}
                       alt="about"
                   />
                   <Image
-                      src="/images/about2.jpg"
+                      src="/images/no-violence/no-violence.jpg"
                       className="about-img2"
                       alt="about"
                       width={309}
@@ -65,10 +65,6 @@ const AboutUsContent: React.FC = () => {
                       width={111}
                       height={111}
                   />
-
-                  <Link href="/about-us" className="btn btn-primary">
-                    Explore More About
-                  </Link>
                 </div>
               </div>
             </div>

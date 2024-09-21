@@ -12,7 +12,7 @@ const AboutUsContent: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-image">
                 <Image
-                  src="/images/what_it_is.webp"
+                  src="/images/no-violence/what_it_is.webp"
                   className="about-img1"
                   alt="about"
                   width={640}
@@ -74,7 +74,7 @@ const AboutUsContent: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-image">
                 <Image
-                  src="/images/banner-foro.webp"
+                  src="/images/no-violence/banner-foro.webp"
                   className="about-img1"
                   alt="about"
                   width={640}

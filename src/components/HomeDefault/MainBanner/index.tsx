@@ -15,23 +15,15 @@ const MainBanner: React.FC = () => {
           <div className="d-table">
             <div className="d-table-cell">
               <div className="container">
-                <div className="d-flex align-items-center flex-column flex-lg-row">
+                <div className="d-flex align-items-center flex-column-reverse flex-lg-row">
                   <Image
-                      src="/images/no-violence/no-violence-map.png"
+                      src="/images/no-violence/banner-foro.webp"
                       alt="no-violence-forum"
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: 'auto', height: '500px' }}
+                      style={{ width: '100%', height: 'auto' }}
                       className=""
-                  />
-                  <Image
-                      src="/images/no-violence/no-violence-word.png"
-                      alt="no-violence-forum"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: 'aut', height: 'auto', flexGrow: 1 }}
                   />
                 </div>
                 <div className="w-100 d-flex mt-5">

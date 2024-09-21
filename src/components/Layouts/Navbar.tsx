@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
                 <ul>
                   <li>
                     <Link href="/pricing" className="btn btn-primary">
-                      Buy Ticket
+                      Inscríbite ahora
                     </Link>
                   </li>
                 </ul>

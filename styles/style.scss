@@ -42,10 +42,10 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
- 
+
 $main-color: #D17A4B;
 $sub-main-color: #00acee;
-$black-color: #0d1028;S
+$black-color: #0d1028;
 $white-color: #ffffff;
 $yellow-color: #efa506;
 $paragraph-color: #707070;
@@ -74,7 +74,7 @@ a {
     &-cell {
         vertical-align: middle;
     }
-} 
+}
 .ptb-120 {
     padding: {
         top: 120px;
@@ -452,7 +452,7 @@ Navbar CSS
                         size: 16px;
                     }
                     text-transform: uppercase;
-                    color: $white-color;
+                    color: $main-color;
                     padding: {
                         left: 0;
                         right: 0;
@@ -602,7 +602,7 @@ Navbar CSS
     }
     &.collapsed {
         .top-bar {
-            transform: rotate(0);      
+            transform: rotate(0);
             left: 0;
         }
         .middle-bar {
@@ -622,23 +622,6 @@ Main Banner CSS
     height: 100vh;
     position: relative;
     z-index: 1;
-    background: {
-        position: center center;
-        size: cover;
-        repeat: no-repeat;
-    }
-
-    &::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        background: $black-color;
-        opacity: .77;
-    }
 }
 .slideshow-banner {
     &::before {
@@ -655,7 +638,7 @@ Main Banner CSS
         list-style-type: none;
         padding: 0;
         margin: 0;
-    
+
         li {
             span {
                 width: 100%;
@@ -885,7 +868,7 @@ Main Banner CSS
     right: 10%;
     bottom: 20px;
     text-align: right;
-    
+
     #timer {
         div {
             display: inline-block;
@@ -1252,7 +1235,7 @@ Why Choose Us CSS
         list-style-type: none;
         padding: 0;
         margin: 0;
-    
+
         li {
             span {
                 width: 100%;
@@ -1796,8 +1779,8 @@ Schedule CSS
         margin: 0;
         display: flex;
         width: 100%;
-        text-align: center; 
-        
+        text-align: center;
+
         li {
             display: block;
             flex: 1;
@@ -1805,7 +1788,7 @@ Schedule CSS
             transition: $transition;
             position: relative;
             border: none;
-    
+
             &::before {
                 width: 30px;
                 height: 30px;
@@ -1853,7 +1836,7 @@ Schedule CSS
             }
             &.react-tabs__tab--selected {
                 background-color: $main-color;
-    
+
                 &::before {
                     opacity: 1;
                     visibility: visible;
@@ -1864,7 +1847,7 @@ Schedule CSS
     .react-tabs__tab-panel {
         padding: 30px;
         background-color: #F9F9FF;
-    
+
         .accordion {
             list-style-type: none;
             padding: 0;
@@ -1967,7 +1950,7 @@ Schedule CSS
                                 color: $paragraph-color;
                                 margin-right: 20px;
                                 font-size: 14px;
-                                
+
                                 &:last-child {
                                     margin-right: 0;
                                 }
@@ -1976,7 +1959,7 @@ Schedule CSS
                                     margin-right: 5px;
                                     color: $main-color;
                                 }
-    
+
                                 span {
                                     color: $sub-main-color;
                                 }
@@ -2284,11 +2267,11 @@ Schedule CSS
             border-bottom: 1px solid #eeeeee;
             padding: 25px 20px;
             text-align: left;
-    
+
             .author {
                 max-width: 90px;
                 margin-right: 20px;
-    
+
                 img {
                     &:nth-child(1) {
                         clip-path: polygon(50% 0%, 38.11% 6.7%, 24.99% 6.72%, 18.06% 18.44%, 6.7% 25%, 6.56% 38.64%, 0% 50%, 6.7% 61.89%, 6.7% 75%, 18.44% 81.94%, 25% 93.3%, 38.64% 93.44%, 50% 100%, 61.88% 93.3%, 75% 93.3%, 81.94% 81.56%, 93.3% 74.9%, 93.44% 61.36%, 100% 50%, 93.3% 38.11%, 93.3% 25%, 81.56% 18.06%, 74.96% 6.7%, 61.36% 6.56%, 50% 0%);
@@ -2324,7 +2307,7 @@ Schedule CSS
             }
             .author-multi {
                 overflow: hidden;
-    
+
                 img {
                     width: 47%;
                     border-radius: 50%;
@@ -2337,10 +2320,10 @@ Schedule CSS
                 h3 {
                     font-size: 18px;
                     margin-bottom: 12px;
-    
+
                     a {
                         color: $black-color;
-    
+
                         &:hover, &:focus {
                             color: $main-color;
                         }
@@ -2350,15 +2333,15 @@ Schedule CSS
                     padding: 0;
                     list-style-type: none;
                     margin: 0;
-    
+
                     li {
                         display: inline-block;
                         color: $paragraph-color;
                         margin-right: 20px;
                         line-height: 1.9;
- 
+
                         font-size: 14px;
-    
+
                         i {
                             margin-right: 5px;
                             color: $main-color;
@@ -2372,7 +2355,7 @@ Schedule CSS
                         a {
                             display: inline-block;
                             color: $sub-main-color;
-    
+
                             &:hover, &:focus {
                                 color: $main-color;
                             }
@@ -2547,7 +2530,7 @@ Pricing CSS
 	overflow: hidden;
 	box-shadow: 7px 5px 30px 0 rgba(72,73,121,0.15);
     transition: $transition;
-    
+
     .pricingTable-header {
         padding: 30px 15px 10px;
         background: $main-color;
@@ -2583,7 +2566,7 @@ Pricing CSS
         }
         color: $white-color;
         margin-bottom: 30px;
-        
+
         sup {
             font-size: 23px;
             top: -25px;
@@ -2904,7 +2887,7 @@ Blog CSS
             }
             .post-tag {
                 top: 70px;
-    
+
                 a {
                     background: $green-light-color;
                     color: $white-color;
@@ -2997,7 +2980,7 @@ Blog CSS
             opacity: 0;
             visibility: hidden;
             color: $main-color;
-    
+
             &:hover {
                 color: $sub-main-color;
                 letter-spacing: 1px;
@@ -3030,7 +3013,7 @@ Buy Tickets CSS
 .buy-tickets-area {
     position: relative;
     z-index: 1;
-    background: { 
+    background: {
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -3826,7 +3809,7 @@ Blog Details CSS
                             display: inline-block;
                             color: $paragraph-color;
                             font-size: 14px;
-                            
+
                             &:hover, &:focus {
                                 color: $main-color;
                             }
@@ -4194,7 +4177,7 @@ Contact Us CSS
 .contact-form {
     margin-top: 50px;
 }
-.leave-your-message {    
+.leave-your-message {
     h3 {
         margin-bottom: 12px;
         font-size: 22px;
@@ -4281,6 +4264,10 @@ Footer CSS
     }
 }
 .single-footer-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     h3 {
         color: $white-color;
         font-size: 24px;
@@ -4481,11 +4468,11 @@ Back To Top CSS
 :invalid {
     box-shadow: none;
 }
-  
+
 :-moz-submit-invalid {
     box-shadow: none;
 }
-  
+
 :-moz-ui-invalid {
     box-shadow:none;
 }

@@ -1,6 +1,6 @@
 import Navbar from "@/components/Layouts/Navbar";
 import PageBanner from "@/components/Common/PageBanner";
-import FooterWhatS from "@/components/Layouts/FooterWhatS";
+import Footer from "@/components/Layouts/Footer";
 
 export default function Page() {
   return (
@@ -13,7 +13,7 @@ export default function Page() {
         homePageUrl="/"
         homePageText="Para quién"
         activePageText="Foro no violencia"
-        bgImg="/images/banner-foro.webp"
+        bgImg="/images/no-violence/banner-foro.webp"
       />
 
       <div className="ptb-120">
@@ -35,13 +35,13 @@ export default function Page() {
                 beneficio del bienestar colectivo y la construcción de paz.
             </p>
             <br />
-            <img src="/images/whofor-img.webp" alt="" />
+            <img src="/images/no-violence/whofor-img.webp" alt="" />
             
           </div>
         </div>
       </div>
 
-      <FooterWhatS />
+      <Footer />
     </>
   );
 }
