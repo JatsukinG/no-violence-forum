@@ -24,7 +24,7 @@ const AboutUsContent: React.FC = () => {
               <div className="col-lg-6">
                 <div className="about-content">
                   <span>UNETE</span>
-                  <h2 className="content-tittle-1">
+                  <h2>
                     ¿Qué es este Foro?
                   </h2>
                   <p>
@@ -53,7 +53,7 @@ const AboutUsContent: React.FC = () => {
               </div>
             </div>
             <br/>
-            <h2 className="content-tittle-2">
+            <h2>
               Fecha y lugar del evento
               Universidad del Quindío, Armenia, Colombia
               entre el 23 y 25 de octubre de 2024.

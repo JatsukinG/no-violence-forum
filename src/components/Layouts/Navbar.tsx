@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div id="navbar" className="elkevent-nav">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg">
           <div className="container">
             <Link href="/" className="navbar-brand">
               <h4 className="fw-bold">

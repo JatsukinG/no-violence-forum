@@ -44,8 +44,8 @@ const items: Item[] = [
 
 const AboutOpenSpace = () => {
   return (
-      <div className="container py-5">
-        <div className="masonry-layout">
+      <div className="ptb-120">
+        <div className="container masonry-layout">
           {
             items.map((item, index) => (
                 <div key={index} className="masonry-item">
@@ -63,7 +63,9 @@ const AboutOpenSpace = () => {
                         {
                           item.items.map((subItem, index) => (
                               <li key={index}>
-                                {subItem}
+                                <p>
+                                  {subItem}
+                                </p>
                               </li>
                           ))
                         }

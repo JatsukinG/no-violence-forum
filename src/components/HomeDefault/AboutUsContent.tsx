@@ -31,7 +31,7 @@ const AboutUsContent: React.FC = () => {
                     experiencias, metodologías creativas, saberes y afectos.
                   </p>
 
-                  <Link href="/about-us" className="btn btn-primary">
+                  <Link href="/what-it-is" className="btn btn-primary">
                     Leer más
                     <i className="icofont-double-right"></i>
                   </Link>

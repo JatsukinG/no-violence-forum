@@ -1,4 +1,5 @@
 import Navbar from '@/components/Layouts/Navbar'
+import Footer from '@/components/Layouts/Footer'
 import PageBanner from '@/components/Common/PageBanner'
 import HowIsTheForum from '@/components/HowIsIt/HowIsTheForum'
 import AboutOpenSpace from '@/components/HowIsIt/AboutOpenSpace'
@@ -23,6 +24,8 @@ const Page = () => {
         <AboutOpenSpace/>
 
         <OpenSpaceReviews/>
+
+        <Footer/>
 
       </>
   )

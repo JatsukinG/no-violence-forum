@@ -607,6 +607,10 @@ Navbar CSS
     .others-option {
       margin-left: 13px;
     }
+
+    h4 {
+      color: $main-color;
+    }
   }
 
   &.is-sticky {
@@ -4950,7 +4954,7 @@ Back To Top CSS
 }
 
 .masonry-item {
-  margin: 10px;
+  margin: 15px;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -4964,13 +4968,7 @@ Back To Top CSS
 }
 
 .masonry-item h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: $main-color;
-  margin-bottom: 10px;
-}
-
-.masonry-item p {
-  font-size: 1rem;
-  color: #666;
-  line-height: 1.5;
+  margin-bottom: 18px;
 }
