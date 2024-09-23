@@ -21,8 +21,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Evnia - React Next.js Event Conference & Meetup Template",
-  description: "React Next.js Event Conference & Meetup Template",
+  title: "Foro de No Violencia",
+  description: "Foro Internacional de No Violencia, Salud Mental Comunitaria - Universidad del Quindío",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL as string),
 };
 
 export default function RootLayout({

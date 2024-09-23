@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Countdown from './Countdown'
 import Link from 'next/link'
 
 const MainBanner: React.FC = () => {
@@ -36,9 +35,6 @@ const MainBanner: React.FC = () => {
               </div>
             </div>
           </div>
-
-          {/* Countdown */}
-          {/*<Countdown endDate=""/>*/}
 
           {/* Shape Images */}
           <div className="shape1">
