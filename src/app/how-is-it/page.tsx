@@ -2,6 +2,7 @@ import Navbar from '@/components/Layouts/Navbar'
 import PageBanner from '@/components/Common/PageBanner'
 import HowIsTheForum from '@/components/HowIsIt/HowIsTheForum'
 import AboutOpenSpace from '@/components/HowIsIt/AboutOpenSpace'
+import OpenSpaceReviews from '@/components/HowIsIt/OpenSpaceReviews'
 
 const Page = () => {
   return (
@@ -12,7 +13,7 @@ const Page = () => {
             pageTitle="¿Como es este Foro ?"
             shortText=""
             homePageUrl="/"
-            homePageText="Para quién"
+            homePageText="Conosca"
             activePageText="Foro no violencia"
             bgImg="/images/no-violence/banner-foro.webp"
         />
@@ -20,6 +21,8 @@ const Page = () => {
         <HowIsTheForum/>
 
         <AboutOpenSpace/>
+
+        <OpenSpaceReviews/>
 
       </>
   )

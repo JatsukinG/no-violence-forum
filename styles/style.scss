@@ -4946,17 +4946,15 @@ Back To Top CSS
 }
 
 .masonry-layout {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: auto;
-  gap: 20px;
+  columns: 2 200px;
 }
 
 .masonry-item {
+  margin: 10px;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -4966,7 +4964,7 @@ Back To Top CSS
 
 .masonry-item h2 {
   font-size: 1.5rem;
-  color: #333;
+  color: $main-color;
   margin-bottom: 10px;
 }
 
@@ -4974,4 +4972,12 @@ Back To Top CSS
   font-size: 1rem;
   color: #666;
   line-height: 1.5;
+}
+
+.masonry-item.empty {
+  background-color: transparent;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  height: 0;
 }

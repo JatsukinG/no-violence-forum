@@ -19,13 +19,32 @@ const items: Item[] = [
       'En cualquier momento es el momento adecuado para comenzar. No hay necesidad de esperar a que llegue un momento perfecto, la acción y la participación pueden surgir en cualquier instante.',
       'Cuando termina, se termina. El foro concluye cuando los participantes sienten que han alcanzado sus objetivos o cuando la energía del grupo se disipa naturalmente.',
     ],
+  }, {
+    title: '¿Qué beneficios aporta OST al Foro Universidad del Quindío?',
+    items: [
+      'Fomenta la participación activa y la colaboración entre los asistentes.',
+      'Promueve el intercambio de ideas y la generación de conocimiento colectivo.',
+      'Permite abordar temas de interés común de manera profunda y significativa.',
+      'Potencia la creatividad y la innovación en la búsqueda de soluciones.',
+      'Genera un ambiente dinámico y enriquecedor para el aprendizaje y la acción.',
+    ],
+  }, {
+    title: '¿Cómo funciona OST en el Foro Universidad del Quindío?',
+    items: [
+      'Al inicio del Foro, cada participante propone un tema que le apasiona o que considera relevante para la comunidad universitaria.',
+      'Tras una breve ronda de presentaciones, se crea un "mapa del espacio" donde se registran los temas propuestos.',
+      'Los participantes se reúnen en torno a los temas que más les interesan, formando grupos de trabajo autogestionados.',
+      'Cada grupo dedica un tiempo determinado a discutir, profundizar y generar ideas sobre el tema elegido.',
+      'Al finalizar cada sesión, los grupos comparten sus aprendizajes y conclusiones con el resto de participantes.',
+      'Se repiten las rondas de discusión y reflexión, permitiendo a los participantes explorar diferentes temas y conectar con personas que comparten sus intereses.',
+    ],
   },
 ]
 
 
 const AboutOpenSpace = () => {
   return (
-      <div className="container">
+      <div className="container py-5">
         <div className="masonry-layout">
           {
             items.map((item, index) => (
@@ -53,6 +72,7 @@ const AboutOpenSpace = () => {
                 </div>
             ))
           }
+          <div className="masonry-item empty"></div>
         </div>
       </div>
   )
