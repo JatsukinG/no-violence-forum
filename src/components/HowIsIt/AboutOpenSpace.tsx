@@ -72,7 +72,6 @@ const AboutOpenSpace = () => {
                 </div>
             ))
           }
-          <div className="masonry-item empty"></div>
         </div>
       </div>
   )

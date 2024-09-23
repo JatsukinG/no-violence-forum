@@ -3899,6 +3899,7 @@ Back To Top CSS
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  break-inside: avoid;
 }
 
 .masonry-item:hover {
@@ -3915,14 +3916,6 @@ Back To Top CSS
   font-size: 1rem;
   color: #666;
   line-height: 1.5;
-}
-
-.masonry-item.empty {
-  background-color: transparent;
-  box-shadow: none;
-  margin: 0;
-  padding: 0;
-  height: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
