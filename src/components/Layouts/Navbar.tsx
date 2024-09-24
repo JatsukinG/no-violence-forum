@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
               <div className="others-option">
                 <ul>
                   <li>
-                    <Link href="/pricing" className="btn btn-primary">
+                    <Link href="/" className="btn btn-primary">
                       Inscríbite ahora
                     </Link>
                   </li>
