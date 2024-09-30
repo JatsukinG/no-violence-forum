@@ -3915,4 +3915,11 @@ Back To Top CSS
   margin-bottom: 18px;
 }
 
+/*Google form iframe*/
+.google-form-iframe {
+  width: 100%;
+  min-height: 130vh;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */

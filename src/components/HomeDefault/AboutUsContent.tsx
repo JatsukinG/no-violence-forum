@@ -36,9 +36,12 @@ const AboutUsContent: React.FC = () => {
                     <i className="icofont-double-right"></i>
                   </Link>
 
-                  <Link href="#" className="btn btn-secondary">
-                    Inscríbete ahora
-                  </Link>
+                  <a
+                      href={process.env.NEXT_PUBLIC_VAKI_URL}
+                      target="_blank"
+                      className="btn btn-secondary">
+                    Apoya donando
+                  </a>
                 </div>
               </div>
 

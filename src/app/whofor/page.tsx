@@ -20,7 +20,7 @@ export default function Page() {
         <div className="ptb-120">
           <div className="container">
             <div className="main-textarea">
-              <h4><span className="content-tittle-1">¿A quién está dirigido este Foro ?</span></h4>
+              <h4 className="content-tittle-1">¿A quién está dirigido este Foro ?</h4>
 
               <p>
                 El Foro Internacional de Noviolencia está dirigido a una diversidad de participantes comprometidos

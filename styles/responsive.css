@@ -834,10 +834,16 @@
   .modal-video-body .modal-video-close-btn {
     right: 0;
   }
+  .google-form-iframe {
+    height: 150vh;
+  }
 }
 @media only screen and (min-width: 423px) and (max-width: 767px) {
   .main-banner-content .button-box .video-btn {
     margin-top: 0;
+  }
+  .google-form-iframe {
+    height: 240vh;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {

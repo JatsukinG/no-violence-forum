@@ -1111,6 +1111,10 @@
             right: 0;
         }
     }
+
+    .google-form-iframe {
+        height: 150vh;
+    }
 }
 
 @media only screen and (min-width: 423px) and (max-width: 767px) {
@@ -1120,6 +1124,10 @@
                 margin-top: 0;
             }
         }
+    }
+
+    .google-form-iframe {
+        height: 240vh;
     }
 }
 

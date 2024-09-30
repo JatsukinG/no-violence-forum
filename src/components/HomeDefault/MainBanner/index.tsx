@@ -27,9 +27,12 @@ const MainBanner: React.FC = () => {
                 </div>
                 <div className="w-100 d-flex mt-5">
                   <div className="mx-auto button-box">
-                    <Link href="#" className="btn btn-primary">
-                      Inscríbite ahora
-                    </Link>
+                    <a
+                        href={process.env.NEXT_PUBLIC_VAKI_URL}
+                        target="_blank"
+                        className="btn btn-secondary">
+                      Apoya donando
+                    </a>
                   </div>
                 </div>
               </div>
