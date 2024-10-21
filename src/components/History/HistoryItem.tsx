@@ -49,7 +49,7 @@ const HistoryItem: FC<Props> = ({ item }) => {
                         {
                             resource.type === 'document' && <DocumentIcon/>
                         }
-                        <a href="#">{resource.title}</a>
+                        <a href={resource.href} target="_blank" rel="noopener noreferrer">{resource.title}</a>
                       </div>
                   ))
                 }
