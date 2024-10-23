@@ -38,10 +38,10 @@ const HistoryItem: FC<Props> = ({ item }) => {
           <h4>{item.title}</h4>
           <p>{item.description}</p>
           {
-              item.resources?.length > 0 &&
+              (item?.resources && item.resources.length > 0) &&
               <div className="resources">
                 {
-                  item.resources?.map(resource => (
+                  item.resources.map(resource => (
                       <div key={resource.href} className="resource-item">
                         {
                             resource.type === 'video' && <VideoIcon/>
