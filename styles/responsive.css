@@ -837,6 +837,43 @@
   .google-form-iframe {
     height: 150vh;
   }
+  .timeline {
+    padding: 2rem;
+  }
+  .timeline:after {
+    left: 0;
+    margin-left: 0;
+  }
+  .timeline-row {
+    padding-left: 0;
+  }
+  .timeline-row .timeline-time {
+    position: static;
+    margin-right: 0;
+  }
+  .timeline-row:nth-child(odd) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .timeline-row:nth-child(odd) .timeline-time {
+    margin-left: 0;
+  }
+  .timeline-row:nth-child(even) .timeline-content {
+    margin-left: 0;
+  }
+  .timeline-row:nth-child(odd) .timeline-content {
+    margin-right: 0;
+  }
+  .timeline-row:nth-child(even) .timeline-content:after {
+    left: -8px;
+  }
+  .timeline-row:nth-child(odd) .timeline-content:after {
+    left: -8px;
+  }
+  .timeline-row:nth-child(odd) .timeline-content:before {
+    right: initial;
+    left: -40px;
+  }
 }
 @media only screen and (min-width: 423px) and (max-width: 767px) {
   .main-banner-content .button-box .video-btn {
