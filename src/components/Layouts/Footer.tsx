@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
               <div className="copyright-area">
                 
 
-                <ul>
+                {/* <ul>
                   <li>
                     <Link href="/blog">Blog</Link>
                   </li>
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                   <li>
                     <Link href="/terms-conditions">Terminos y condiciones</Link>
                   </li>
-                </ul>
+                </ul> */}
 
               </div>
             </div>
